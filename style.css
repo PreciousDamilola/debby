@@ -1,17 +1,67 @@
+table {
+    width: 50%;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.row1 {
+    background-color: black;
+    color: white;
+}
+
+.row2 {
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.row3 {
+    background-color: rgb(157, 149, 149);
+    color: white;
+}
+
+.row4 {
+    background-color: purple;
+    color: white;
+}
+
+.row5 {
+    background-color: rgb(157, 149, 149);
+    color: white;
+
+}
+
+.row6 {
+    background-color: purple;
+    color: white;
+}
+
+.row7 {
+    background-color: rgb(157, 149, 149);
+    color: white;
+}
+
 section {
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
-    margin: auto;
+    margin: 20px auto;
     width: 50%;
-    height: 350px;
+    height: 25%;
     background-color: beige;
 }
 
-h1 {
+.First {
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: white;
 }
 
 div {
@@ -28,4 +78,45 @@ div {
     width: 30%;
     height: 30%;
     margin: auto;
+}
+
+article {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 25px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+article h1 {
+    text-decoration: underline;
+    border: 1px dashed black;
+    width: 50%;
+    margin: auto;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+article p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.primary {
+    background-color: chocolate;
+
+}
+
+.Childhood {
+    background-color: rgb(157, 149, 149);
+}
+
+.Secondary {
+    background-color: chocolate;
+}
+
+.Tertiary {
+    background-color: rgb(157, 149, 149);
 }
